@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-// Connet to the MongoDB DAtabase
+// Connect to the MongoDB DAtabase
 
 const connectDB = async () => {
   mongoose.connection.on("connected", () =>
